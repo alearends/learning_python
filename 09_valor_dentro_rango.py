@@ -6,3 +6,4 @@ n_evaluar = float(input('indica el numero a evaluar:'))
 
 if n_evaluar >= n_minimo and n_evaluar <= n_maximo:
     print(f'El número {n_evaluar} esta entre {n_minimo} y {n_maximo}')
+    

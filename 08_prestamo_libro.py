@@ -10,3 +10,4 @@ if es_eligible_para_prestamo:
     print(f'Si eres elegible para el prestamo de libros.')
 else: 
     print(f'No eres elegible para el prestamo de libros.')
+    

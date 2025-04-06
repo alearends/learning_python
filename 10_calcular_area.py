@@ -9,6 +9,7 @@ while True:
             print("Por favor ingresa un numero valido: 1, 2, 3 o 4")
     except ValueError:
         print('Por favor ingresa un numero valido: 1, 2, 3 o 4')
+        
 
 
 
