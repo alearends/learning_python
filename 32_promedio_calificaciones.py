@@ -20,14 +20,13 @@ for nota in range(n_calificaciones):
         try:
             calificacion = float(input(f'Por favor ingresa la calificacion {nota + 1}: '))
             if calificacion >= 0 and calificacion <= 10:
+                calificaciones.append(calificacion)
                 break
             else:
                 print('Por favor ingresa una calificacion entre 0 y 10')
         except ValueError:
             print('Por favor ingresa una calificacion entre 0 y 10')
-    
-    if 0 <= calificacion <= 10:
-        calificaciones.append(calificacion)
+        
 
 n_promedio = sum(calificaciones) / len(calificaciones)
 print('\n Las calificaciones son:', calificaciones)
