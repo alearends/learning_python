@@ -37,3 +37,12 @@ if producto_encontrado:
         Cantidad: {producto_encontrado.get('cantidad')}''')
 else:
     print('Producto con ID {id_buscar} no fue encontrado ')
+
+# Mostrar el inventario detallado
+print('\nInentario Detallado Actualizado')
+for producto in inventario:
+        print(f'''
+        ID: {producto.get('id')},
+        Nombre: {producto.get('nombre')},
+        Precio: {producto.get('precio')},
+        Cantidad: {producto.get('cantidad')}''')
