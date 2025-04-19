@@ -46,5 +46,5 @@ while not is_salida:
         print('Gracias por usar la calculadora \n')
         is_salida = True
     else:
-        print('Por favor selecciona una opcion valida')
+        print('Por favor selecciona una opcion valida')      
 
