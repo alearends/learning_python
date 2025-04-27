@@ -22,5 +22,5 @@ print(f"Empleados en el deparatamento de Ventas: {empresa1.obtener_numero_emplea
 empresa1.mostrar_todos_los_empleados()
 
 # Para Ejecutar este Sistema:
-# Abre la terminal en C:\Users\aleja\Documents\_Certificación_Web\Phyton IBM\IBM Python Avanzado\Experimentos\
+# Abre la terminal en \Experimentos\
 # Ejecuta: python -m sistema_empleados_poo.prueba_empleados_empresa
