@@ -7,8 +7,8 @@ try:
     with open(nombre_archivo, 'x') as archivo:
 
         # 3. Escribir en el archivo
-        archivo.write('EEscritura en modo exclusivo')
-        archivo.write('\nespero que sea util\n')
+        archivo.write('Escritura en modo exclusivo')
+        archivo.write('\nEspero que sea util\n')
     
     print(f'Se ha creado el archivo: {nombre_archivo}')
 
