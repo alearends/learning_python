@@ -20,3 +20,4 @@ print(f'Siguiente elemento del iterable: {next(iterador)}') # 2
 print(f'Siguiente elemento del iterable: {next(iterador)}') # 3
 print(f'Siguiente elemento del iterable: {next(iterador)}') # 4
 print(f'Siguiente elemento del iterable: {next(iterador)}') # 5
+ 
