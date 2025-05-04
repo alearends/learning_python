@@ -1,2 +1,2 @@
-Esto es una prueba
-estoy agregando informacion al archivo
+EEscritura en modo exclusivo
+espero que sea util
