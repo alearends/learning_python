@@ -1,7 +1,7 @@
 *.txt
 
 # Entorno virtual
-venv/
+**/venv/ 
 
 # Archivos temporales y de VSCode
 __pycache__/
